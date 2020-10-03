@@ -1,7 +1,7 @@
 /* Coder:Muhammad Sharique
 Date:27.6.2019
 bugs:unknown
-work:encrypt a text in its binary form
+work:encrypts a text in its binary form
 algorithm:
 firrst converts one character of text in its ASCII and then converts it in binary form.
 input:simply type text without emogies in input .
@@ -30,14 +30,12 @@ int main()
         binary_number=binary(ch);
         printf("%ld ",binary_number);
     }
-    HRLINE
-    printf("\nPlease leave an upvote,if you like it.....");
     return 0;
 }
 long binary(int ch)
 {
     long int binary_num=0;
-    int rem,temp=1;
+    int rem,temp = 1;
     while(ch!=0)
     {
         rem=ch%2;
