@@ -12,7 +12,7 @@ input:simply type text without emogies in input .
 printf("_");
 
 long  binary(int ch);
-int main()
+void main()
 {
     char str[1024],ch;
     long int binary_number;
@@ -29,8 +29,7 @@ int main()
         ch=str[i];
         binary_number=binary(ch);
         printf("%ld ",binary_number);
-    }
-    return 0;
+    } 
 }
 long binary(int ch)
 {
