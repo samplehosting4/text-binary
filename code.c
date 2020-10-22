@@ -3,7 +3,7 @@ Date:27.6.2019
 bugs:unknown
 work:encrypts a text in its binary form
 algorithm:
-firrst converts one character of text in its ASCII and then converts it in binary form.
+first converts one character of text in its ASCII and then converts it in binary form.
 input:simply type text without emogies in input .
 */
 #include<stdio.h>
@@ -44,4 +44,5 @@ long binary(int ch)
         temp=temp*10;
     }
     return (binary_num);
+
 }
