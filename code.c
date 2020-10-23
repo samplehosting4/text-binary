@@ -8,6 +8,7 @@ input:simply type text without emogies in input .
 */
 #include<stdio.h>
 #include<string.h>
+#include<conio.h>
 # define HRLINE for(int i=0;i<=50;i++)\
 printf("_");
 
@@ -43,5 +44,5 @@ long binary(int ch)
         temp=temp*10;
     }
     return (binary_num);
-
+    getch();
 }
